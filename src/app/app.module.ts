@@ -5,8 +5,9 @@ import { AppComponent } from './app.component';
 import { FormulaireComponent } from './formulaire/formulaire.component';
 import { TetiereComponent } from './tetiere/tetiere.component';
 import { FooterComponent } from './footer/footer.component';
-import { RecapitulatifComponent } from './recapitulatif/recapitulatif.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule} from '@angular/forms';
+import { RecapComponent } from './recap/recap.component';
+import { PhoneFormatPipe } from './phone-format.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FormsModule } from '@angular/forms';
     FormulaireComponent,
     TetiereComponent,
     FooterComponent,
-    RecapitulatifComponent
+    RecapComponent,
+    PhoneFormatPipe
   ],
   imports: [
     BrowserModule,

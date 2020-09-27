@@ -1,6 +1,9 @@
 .page{
     background: rgb(101,101,101);
     background: radial-gradient(circle, rgba(101,101,101,1) 0%, rgba(0,0,0,1) 100%); 
+    margin-left: 5%;
+    margin-right: 2.5%;
+    max-width: 90%;
 }
 
 label{
@@ -25,8 +28,6 @@ h1{
 .errorMessages {
     color:#9b1212;
 }
-
-
 
 #civil{
     padding: 0;

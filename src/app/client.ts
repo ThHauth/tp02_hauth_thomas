@@ -3,14 +3,16 @@ export class Client {
     prenom:string;
     adresse:string;
     cp:string;
+    tel:string;
     ville:string;
     pays:string;
     email:string;
     civilite:string;
     login:string;
     password:string;
+    formatTel:string;
 
-    constructor(nom:string,prenom:string,adresse:string,cp:string,ville:string,pays:string,email:string,civilite:string,login:string,password:string){
+    constructor(nom?:string,prenom?:string,adresse?:string,cp?:string,tel?:string,ville?:string,pays?:string,email?:string,civilite?:string,login?:string,password?:string){
         this.nom = nom;
         this.prenom = prenom;
         this.adresse = adresse;
@@ -20,6 +22,7 @@ export class Client {
         this.email = email;
         this.civilite = civilite;
         this.login = login;
+        this.tel = tel;
         this.password = password;
     }
 }
